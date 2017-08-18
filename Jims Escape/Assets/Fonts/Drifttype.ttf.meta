@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 1e17fde06862d294faaaf927d7ceef00
+timeCreated: 1503080100
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: DriftType
+  fontNames:
+  - DriftType
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1a3fc8be3d291814d832bd7a5ba606d3, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
