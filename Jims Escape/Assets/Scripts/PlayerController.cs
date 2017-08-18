@@ -24,11 +24,7 @@ public class PlayerController : MonoBehaviour
         {
             transform.position += Vector3.up * speed * Time.deltaTime;
         }
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            transform.position += Vector3.down * speed * Time.deltaTime;
-        }
-
+       
     }
 
 }
