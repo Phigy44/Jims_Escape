@@ -26,6 +26,7 @@ public class LampController : MonoBehaviour {
         {
             Debug.Log("No Time Left");
             GameOverScreen.SetActive(true);
+            
         }
 	}
 }
