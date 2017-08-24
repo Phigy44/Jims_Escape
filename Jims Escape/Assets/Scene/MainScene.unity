@@ -1087,11 +1087,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a75c23b7899f884c9d9f9e835709fa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxAmountOfSwing: 5
+  minPassesToRerandomizing: 2
+  maxPassesToRerandomizing: 6
   minAmountOfSwing: 1
-  maxSpeedOfChange: 3
-  minSpeedOfChange: 1
-  averageAngle: 100
+  maxAmountOfSwing: 3
+  minWindspeed: 1
+  maxWindspeed: 4
 --- !u!1 &1178989110
 GameObject:
   m_ObjectHideFlags: 0
