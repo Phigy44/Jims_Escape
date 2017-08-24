@@ -7,6 +7,8 @@ public class LampController : MonoBehaviour {
     public Slider oilSlider;
     public int OilAmout = 100;
 
+    public GameObject GameOverScreen;
+
     public float timeLeft;
     void Start () 
 	{
@@ -20,8 +22,10 @@ public class LampController : MonoBehaviour {
         
         timeLeft -= Time.deltaTime ;
         OilAmout = (int)timeLeft;
-        if (timeLeft < 0) {
+        if (timeLeft < 0)
+        {
             Debug.Log("No Time Left");
+            GameOverScreen.SetActive(true);
         }
 	}
 }
